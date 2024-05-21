@@ -14,7 +14,7 @@ default:
   description:
     -
       value: 'A textual representation of the Object appropriate for fulltext indexing, such as a plaintext version of a document, or OCR text'
-      format: ''
+      format: 'plain_text'
   weight:
     -
       value: 0
