@@ -7,8 +7,6 @@ dependencies:
     - taxonomy.vocabulary.country
   module:
     - controlled_access_terms
-_core:
-  default_config_hash: Fa0emb84dajsMEIeJbguiNu-NJJMx5Lcip1IjUNqhGU
 id: taxonomy_term.country.field_authority_link
 field_name: field_authority_link
 entity_type: taxonomy_term
