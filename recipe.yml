@@ -3,3 +3,30 @@ description: 'Structural taxonomy vocabularies for use with Islandora.'
 type: 'islandora'
 install:
   - content_translation
+config:
+  actions:
+    core.entity_view_display.taxonomy_term.islandora_media_use.default:
+      setComponent:
+        name: field_external_uri
+        options:
+          type: link
+          label: inline
+          settings:
+            trim_length: null
+            url_only: false
+            url_plain: false
+            rel: '0'
+            target: '0'
+          third_party_settings: { }
+          weight: 2
+          region: content
+    core.entity_form_display.taxonomy_term.islandora_media_useß.default:
+      setComponent:
+        name: field_external_uri
+        type: link_default
+        weight: 2
+        region: content
+        settings:
+          placeholder_url: ''
+          placeholder_title: ''
+        third_party_settings: { }
