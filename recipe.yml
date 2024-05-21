@@ -1,3 +1,5 @@
 name: 'Islandora Vocabularies'
 description: 'Structural taxonomy vocabularies for use with Islandora.'
 type: 'islandora'
+install:
+  - content_translation
