@@ -1,19 +1,17 @@
-uuid: 73fad0c7-7af2-4cbe-b2b0-f7bb3341ea21
+uuid: 72224be5-ba8c-4763-9336-e2d4af33a6cf
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.taxonomy_term.islandora_media_use.field_external_uri
-    - taxonomy.vocabulary.islandora_media_use
+    - field.field.taxonomy_term.islandora_models.field_external_uri
+    - taxonomy.vocabulary.islandora_models
   module:
     - link
     - path
     - text
-_core:
-  default_config_hash: XafhxVZvaz6Wh7PSExXFNVVD2cmXCA-f0W8i5OKgWD8
-id: taxonomy_term.islandora_media_use.default
+id: taxonomy_term.islandora_models.default
 targetEntityType: taxonomy_term
-bundle: islandora_media_use
+bundle: islandora_models
 mode: default
 content:
   description:

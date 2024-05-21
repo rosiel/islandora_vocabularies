@@ -1,19 +1,17 @@
-uuid: 73fad0c7-7af2-4cbe-b2b0-f7bb3341ea21
+uuid: 8cad4c0e-08c4-4e75-832c-7c28965c3a9c
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.taxonomy_term.islandora_media_use.field_external_uri
-    - taxonomy.vocabulary.islandora_media_use
+    - field.field.taxonomy_term.islandora_display.field_external_uri
+    - taxonomy.vocabulary.islandora_display
   module:
     - link
     - path
     - text
-_core:
-  default_config_hash: XafhxVZvaz6Wh7PSExXFNVVD2cmXCA-f0W8i5OKgWD8
-id: taxonomy_term.islandora_media_use.default
+id: taxonomy_term.islandora_display.default
 targetEntityType: taxonomy_term
-bundle: islandora_media_use
+bundle: islandora_display
 mode: default
 content:
   description:
@@ -49,20 +47,15 @@ content:
     third_party_settings: {  }
   path:
     type: path
-    weight: 5
+    weight: 4
     region: content
     settings: {  }
     third_party_settings: {  }
   status:
     type: boolean_checkbox
-    weight: 6
+    weight: 5
     region: content
     settings:
       display_label: true
-    third_party_settings: {  }
-  translation:
-    weight: 4
-    region: content
-    settings: {  }
     third_party_settings: {  }
 hidden: {  }
