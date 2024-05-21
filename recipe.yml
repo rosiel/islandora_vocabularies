@@ -4,7 +4,7 @@ type: 'islandora'
 install:
   - controlled_access_terms_defaults
 config:
-  install:
+  import:
     controlled_access_terms_defaults:
       - field.field.taxonomy_term.corporate_body.field_authority_link.yml
       - field.field.taxonomy_term.corporate_body.field_cat_date_begin.yml
