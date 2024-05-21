@@ -28,7 +28,6 @@ default:
     -
       alias: ''
       langcode: en
-      pathauto: 1
   content_translation_source:
     -
       value: und
