@@ -1,0 +1,13 @@
+{
+  "name": "islandora/islandora_vocabularies",
+  "description": "Drupal Recipe to create starter taxonomy vocabularies for use with Islandora.",
+  "type": "drupal-recipe",
+  "require": {
+    "drupal/core": "^10.2 | ^11",
+    "drupal/geolocation": "^3 | ^4.0@alpha",
+    "drupal/controlled_access_terms": "^2.4.1"
+  },
+  "suggest": {
+  },
+  "license": "GPL-2.0-or-later"
+}
