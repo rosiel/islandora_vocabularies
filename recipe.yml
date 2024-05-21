@@ -2,5 +2,4 @@ name: 'Islandora Vocabularies'
 description: 'Starter taxonomy vocabularies for use with Islandora.'
 type: 'islandora'
 install:
-  - geolocation
   - controlled_access_terms_defaults
