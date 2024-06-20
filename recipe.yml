@@ -3,3 +3,4 @@ description: 'Structural taxonomy vocabularies and default content for use with 
 type: 'islandora'
 install:
   - content_translation
+  - language
